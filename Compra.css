@@ -1,0 +1,82 @@
+#cabeça{
+    background-color: black;
+    height: 8vw;
+    background-image: url(file:///C:/Users/Cliente/Pictures/logo%20gin%20preta.png);
+    background-position: 10vw;
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    padding: 60px 150px 10px 10px;
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+p{
+    text-align: center;
+    color: aliceblue;
+}
+*{
+    font-family: 'Quicksand Book', sans-serif;
+}
+#descricoes{
+    color:#343441;
+    padding: 60px 60px 60px 60px;
+    display: inline-block;
+    position: absolute;
+    left: 930px;
+    top: 300px;
+    display: inline-block;
+}
+#imagem{
+    position: absolute;
+    top: 250px;
+    left: 150px;
+}
+#botaocomprar{
+    background-color: green;
+    color: white;
+    display: inline-block;
+    border-radius: 100px;
+    padding: 20px 300px 20px 300px;
+    border: 1px;
+    position: absolute;
+    top: 560px;
+    left: 980px;
+    
+}
+#rodape{
+    background-color: black;
+    width: 100vw;
+    height: 100px;
+    position: absolute;
+	bottom: 0;
+}
+h1{
+    font-size: 38px;
+}
+h2{
+    font-size: 30px;
+}
+h3{
+    font-size: 25px;
+}
+#falec{
+    padding: 25px 100px 10px 10px;
+}
