@@ -1,0 +1,87 @@
+#cabeça{
+    background-color: black;
+    height: 8vw;
+    background-image: url(file:///C:/Users/Cliente/Pictures/logo%20gin%20preta.png);
+    background-position: 10vw;
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    padding: 60px 150px 10px 10px;
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#rodape{
+    background-color: black;
+    width: 100vw;
+    height: 100px;
+    position: fixed;
+	bottom: 0;
+}
+#falec{
+    padding: 25px 100px 10px 10px;
+}
+p{
+    text-align: center;
+    color: aliceblue;
+}
+*{
+    font-family: 'Quicksand Book', sans-serif;
+}
+#corpao{
+    background-color: aliceblue;
+}
+#produtosdiv{
+    background-color: darkgray;
+    position: absolute;
+    top: 300px;
+    left: 400px;
+    padding: 30px 800px 30px 20px ;
+}
+#nba{
+    position: absolute;
+    top: 430px;
+    left: 430px;
+}
+#parra{
+    position: absolute;
+    top: 430px;
+    left: 760px;
+}
+#indigo{
+    position: absolute;
+    top: 430px;
+    left: 1090px;
+}
+#lacoste{
+    position: absolute;
+    top: 830px;
+    left: 430px;
+}
+#laurent{
+    position: absolute;
+    top: 830px;
+    left: 760px;
+}
+#versace{
+    position: absolute;
+    top: 830px;
+    left: 1090px;
+}
